@@ -1,6 +1,6 @@
 # Web-Scraping-Points-Table-from-Wikipedia
 # Overview
-This Python script is designed to scrape the points table data from a Wikipedia page related to the 2023 Cricket World Cup. It utilizes the Selenium library for web scraping, along with other auxiliary libraries such as time, json, and pandas.
+This Python script is designed to scrape the points table data from a Wikipedia page related to the 2023 Cricket World Cup. It utilizes the Selenium library for web scraping, along with other auxiliary libraries such as time, json.
 
 # Functionality
 The script defines a function named scrape_points_table which takes a URL of the Wikipedia page as input. Upon execution, the function performs the following steps:
