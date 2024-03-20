@@ -5,15 +5,11 @@ This Python script is designed to scrape the points table data from a Wikipedia 
 # Functionality
 The script defines a function named scrape_points_table which takes a URL of the Wikipedia page as input. Upon execution, the function performs the following steps:
 
-1. Initializes a Chrome WebDriver instance.
-2. Accesses the provided URL.
-3. Waits for 2 seconds to allow the webpage to fully load.
-4. Locates the points table on the webpage using XPath.
-5. Iterates through each row of the table, extracting team names and their corresponding points.
-6. Stores the extracted data in lists.
-7. Combines team names and points into a dictionary.
-8. Closes the WebDriver instance to free up system resources.
-9. Returns the extracted data in JSON format.
+1. The script uses Selenium WebDriver to automate web browsing and extract data from the Wikipedia page.
+2. It locates the points table on the page using XPath.
+3. It then iterates through each row of the table, extracting the team name and points.
+4. The data is stored in a list of dictionaries.
+5. Finally, the WebDriver is closed, and the data is returned in JSON format.
 # Prerequisites
 1. Python 3.x installed on system
 2. Required Python library installed (Selenium)
