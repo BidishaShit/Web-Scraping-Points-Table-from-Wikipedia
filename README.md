@@ -15,5 +15,5 @@ The script defines a function named scrape_points_table which takes a URL of the
 8. Closes the WebDriver instance to free up system resources.
 9. Returns the extracted data in JSON format.
 # Prerequisites
-Python 3.x installed on your system
-Required Python library installed (Selenium)
+1. Python 3.x installed on system
+2. Required Python library installed (Selenium)
